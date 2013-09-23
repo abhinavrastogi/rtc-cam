@@ -1,0 +1,7 @@
+A very simple boiler-plate code for accessing the system camera in your browser / web application, using HTML5's WebRTC and Javascript.
+
+It reads the camera input via the <code>video</code> tag and the getUserMedia() API exposed by the browser. We then capture the video feed, read it frame-by-frame and render it in a canvas element at 60 frames per second. You can uncomment the middle section to apply effects like thresholding/motion-detection etc.
+
+This was made by following the tutorials at:
+ - https://developer.mozilla.org/en-US/docs/WebRTC
+ - www.creativebloq.com/javascript/get-started-webrtc-1132857
